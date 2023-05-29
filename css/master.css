@@ -718,6 +718,7 @@ main .banner img {
 
 #portfolio .content .categories {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 15px;
   max-width: 1250px;
@@ -727,7 +728,8 @@ main .banner img {
 #portfolio .content .categories .card {
   position: relative;
   flex: calc(100% / 4);
-  min-width: 200px;
+  min-width: 350px;
+  max-width: 450px;
   overflow: hidden;
   border-radius: 5px;
   -webkit-border-radius: 5px;
