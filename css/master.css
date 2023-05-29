@@ -728,7 +728,7 @@ main .banner img {
 #portfolio .content .categories .card {
   position: relative;
   flex: calc(100% / 4);
-  min-width: 350px;
+  min-width: 300px;
   max-width: 450px;
   overflow: hidden;
   border-radius: 5px;
